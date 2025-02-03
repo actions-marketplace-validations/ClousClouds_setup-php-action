@@ -1,6 +1,6 @@
 name: 'Setup PHP for PocketMine-MP'
 description: 'Install PHP and Composer for PocketMine-MP and related projects'
-author: 'pmmp'
+author: 'ClousClouds'
 inputs:
   php-version:
     required: true
