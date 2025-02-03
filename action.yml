@@ -1,16 +1,16 @@
-name: 'Setup PHP for PocketMine-MP'
+name: 'Setup PHP for XPocketMP'
 description: 'Install PHP and Composer for PocketMine-MP and related projects'
 author: 'ClousClouds'
 inputs:
   php-version:
     required: true
-    description: 'PHP version to install, e.g. "8.1" - see all available at https://github.com/pmmp/PHP-Binaries/releases?q=latest'
+    description: 'PHP version to install, e.g. "8.1" - see all available at https://github.com/ClousClouds/PHP-Binaries/releases?q=latest'
   install-path:
     required: true
     description: 'Path to install the binary to'
   pm-version-major:
     required: false
-    description: 'Major version of PocketMine-MP to install PHP for, e.g. "4"'
+    description: 'Major version of XPocketMP to install PHP for, e.g. "4"'
     default: 5
 
 runs:
